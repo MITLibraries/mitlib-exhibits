@@ -2,5 +2,13 @@
     "name": "mitlibraries/mitlib-exhibits",
     "description": "An exhibit building platform for the MIT Libraries",
     "type": "project",
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/omeka/omeka-s"
+        }
+    ],
+    "require": {
+        "omeka/omeka-s": "^4.0"
+    }
 }
