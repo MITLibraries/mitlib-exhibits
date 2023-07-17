@@ -1,0 +1,7 @@
+name: mit-libraries-exhibits
+recipe: lamp
+config:
+  php: '8.0'
+  webroot: .
+  database: 'mysql:5.7'
+  xdebug: false
