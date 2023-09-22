@@ -1,0 +1,27 @@
+{
+    "name": "mitlibraries/mitlib-exhibits",
+    "description": "A local Omeka S installation",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/MITLibraries/mitlibraries-theme-omeka"
+        }
+    ],
+    "require": {
+        "mitlibraries/mitlibraries-theme-omeka": "dev-post-21",
+        "composer/installers": "^2.2"
+    },
+    "extra": {
+        "installer-paths": {
+            "web/themes/{$name}/": [
+                "type:omeka-theme"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
