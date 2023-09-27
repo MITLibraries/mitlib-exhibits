@@ -9,9 +9,14 @@
         }
     ],
     "require": {
-        "composer/installers": "^2.2"
+        "composer/installers": "^2.2",
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "extra": {
+        "installer-types": [
+            "omeka-theme",
+            "omeka-plugin"
+        ],
         "installer-paths": {
             "web/themes/{$name}/": [
                 "type:omeka-theme"
@@ -20,7 +25,8 @@
     },
     "config": {
         "allow-plugins": {
-            "composer/installers": true
+            "composer/installers": true,
+            "oomphinc/composer-installers-extender": true
         }
     }
 }
