@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d73fffde5fb4bca54e9a646839073ca",
+    "content-hash": "4f6577f63452e84b61d0f55d1ef485b5",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,6 +152,48 @@
             "time": "2022-08-20T06:45:11+00:00"
         },
         {
+            "name": "mitlibraries/mitlibraries-theme-omeka",
+            "version": "v0.0.3-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/mitlibraries-theme-omeka.git",
+                "reference": "1d3cd7da5092e1fd2670a9310e2b0ae22fdf0b66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/mitlibraries-theme-omeka/zipball/1d3cd7da5092e1fd2670a9310e2b0ae22fdf0b66",
+                "reference": "1d3cd7da5092e1fd2670a9310e2b0ae22fdf0b66",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^2.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+            },
+            "type": "omeka-theme",
+            "scripts": {
+                "syntax": [
+                    "find . -path ./vendor -prune -o \\( -name '*.php' \\) -exec php -d error_reporting=E_ALL -lf {} \\;",
+                    "find . -path ./vendor -prune -o \\( -name '*.phtml' \\) -exec php -d error_reporting=E_ALL -lf {} \\;"
+                ],
+                "lint": [
+                    "phpcs"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "MIT Libraries"
+                }
+            ],
+            "description": "An Omeka S theme to implement the MIT Libraries' branding materials",
+            "support": {
+                "source": "https://github.com/MITLibraries/mitlibraries-theme-omeka/tree/v0.0.3-beta2",
+                "issues": "https://github.com/MITLibraries/mitlibraries-theme-omeka/issues"
+            },
+            "time": "2023-09-27T15:04:21+00:00"
+        },
+        {
             "name": "oomphinc/composer-installers-extender",
             "version": "2.0.1",
             "source": {
@@ -212,7 +254,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mitlibraries/mitlibraries-theme-omeka": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

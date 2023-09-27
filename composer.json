@@ -10,7 +10,8 @@
     ],
     "require": {
         "composer/installers": "^2.2",
-        "oomphinc/composer-installers-extender": "^2.0"
+        "oomphinc/composer-installers-extender": "^2.0",
+        "mitlibraries/mitlibraries-theme-omeka": "v0.0.3-beta2"
     },
     "extra": {
         "installer-types": [
