@@ -9,7 +9,6 @@
         }
     ],
     "require": {
-        "mitlibraries/mitlibraries-theme-omeka": "dev-post-21",
         "composer/installers": "^2.2"
     },
     "extra": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c3199d4b8639f766573dd56813b0718",
+    "content-hash": "24d3201531c9e6fc8ba05580724ca7e2",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,53 +150,12 @@
                 }
             ],
             "time": "2022-08-20T06:45:11+00:00"
-        },
-        {
-            "name": "mitlibraries/mitlibraries-theme-omeka",
-            "version": "dev-post-21",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/MITLibraries/mitlibraries-theme-omeka.git",
-                "reference": "0d044eb308b4b6314f823d5c8d0a3037ecbd24e2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/MITLibraries/mitlibraries-theme-omeka/zipball/0d044eb308b4b6314f823d5c8d0a3037ecbd24e2",
-                "reference": "0d044eb308b4b6314f823d5c8d0a3037ecbd24e2",
-                "shasum": ""
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
-            },
-            "type": "omeka-theme",
-            "scripts": {
-                "syntax": [
-                    "find . -path ./vendor -prune -o \\( -name '*.php' \\) -exec php -lf {} \\;",
-                    "find . -path ./vendor -prune -o \\( -name '*.phtml' \\) -exec php -lf {} \\;"
-                ],
-                "lint": [
-                    "phpcs"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "MIT Libraries"
-                }
-            ],
-            "description": "Description here",
-            "support": {
-                "source": "https://github.com/MITLibraries/mitlibraries-theme-omeka/tree/post-21",
-                "issues": "https://github.com/MITLibraries/mitlibraries-theme-omeka/issues"
-            },
-            "time": "2023-09-21T20:52:31+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "mitlibraries/mitlibraries-theme-omeka": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
