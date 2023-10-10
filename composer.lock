@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f6577f63452e84b61d0f55d1ef485b5",
+    "content-hash": "799a55f5623644e8a733e03b9f9ae23d",
     "packages": [
         {
             "name": "composer/installers",
@@ -153,16 +153,16 @@
         },
         {
             "name": "mitlibraries/mitlibraries-theme-omeka",
-            "version": "v0.0.3-beta2",
+            "version": "v0.0.4-beta4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MITLibraries/mitlibraries-theme-omeka.git",
-                "reference": "1d3cd7da5092e1fd2670a9310e2b0ae22fdf0b66"
+                "reference": "322d9a843782ded6a1283524632bdfbed84b05be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MITLibraries/mitlibraries-theme-omeka/zipball/1d3cd7da5092e1fd2670a9310e2b0ae22fdf0b66",
-                "reference": "1d3cd7da5092e1fd2670a9310e2b0ae22fdf0b66",
+                "url": "https://api.github.com/repos/MITLibraries/mitlibraries-theme-omeka/zipball/322d9a843782ded6a1283524632bdfbed84b05be",
+                "reference": "322d9a843782ded6a1283524632bdfbed84b05be",
                 "shasum": ""
             },
             "require": {
@@ -188,10 +188,10 @@
             ],
             "description": "An Omeka S theme to implement the MIT Libraries' branding materials",
             "support": {
-                "source": "https://github.com/MITLibraries/mitlibraries-theme-omeka/tree/v0.0.3-beta2",
+                "source": "https://github.com/MITLibraries/mitlibraries-theme-omeka/tree/v0.0.4-beta4",
                 "issues": "https://github.com/MITLibraries/mitlibraries-theme-omeka/issues"
             },
-            "time": "2023-09-27T15:04:21+00:00"
+            "time": "2023-10-10T20:49:41+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
